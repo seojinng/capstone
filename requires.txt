@@ -1,4 +1,5 @@
 streamlit
 numpy
 pandas
-
+streamlit_qrcode
+qrcode
