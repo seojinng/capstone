@@ -1,11 +1,11 @@
-#pip install streamlit_qrcode
-
 import streamlit as st
-#import qrcode
-st.write('hello')
+import streamlit_qrcode
 
-#url = "https://uscapston.streamlit.app/"
+# URL 설정
+url = "https://uscapston.streamlit.app/"
 
-#qr_img = qrcode.make(url)
-#st.image(qr_img)
+# 스트림릿 앱에 QR 코드 이미지 표시
+st.write(f"QR 코드를 스캔하여 이동하세요: {url}")
+streamlit_qrcode.streamlit_qrcode(url)
+
 
