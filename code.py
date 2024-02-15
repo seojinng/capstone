@@ -1,3 +1,5 @@
+!pip install streamlit_qrcode
+
 import streamlit as st
 import qrcode
 
