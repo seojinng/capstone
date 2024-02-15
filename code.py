@@ -3,6 +3,7 @@ import qrcode
 from PIL import Image
 import io
 
+st.write('hello')
 url = "https://uscapston.streamlit.app/"
 
 # QR 코드 생성
